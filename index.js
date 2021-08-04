@@ -24,6 +24,7 @@ async function magicFunction (imgId) {
         });
 
         console.clear();
+        let fs = '';
         for ( let i = 0; i < map.length; i += 3 ) {
             let l = '';
             for ( let j = 0; j < map[i].length; j += 2 ) {
@@ -37,8 +38,11 @@ async function magicFunction (imgId) {
                 x += (!map[i+2][j+1] * 1).toString();
                 l += br[x];
             }
-            console.log(l);
+            // console.log(l);
+            fs += l + '\n';
         }
+        console.log(fs);
+        // this should reduce the screen tearing like effect that occurs on some terminals
     });
 }
 

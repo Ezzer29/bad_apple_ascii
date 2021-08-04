@@ -6,5 +6,4 @@ cd bad_apple_ascii # go into the main dir
 npm install # install dependencies
 npm start # start?
 ```
-<br>
 Original Bad Apple: https://www.youtube.com/watch?v=FtutLA63Cp8
