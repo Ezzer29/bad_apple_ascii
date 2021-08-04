@@ -1,0 +1,14 @@
+{
+  "name": "bad_apple_ascii",
+  "version": "1.0.0",
+  "description": "NONE :P",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "Ezzer29",
+  "license": "MIT",
+  "dependencies": {
+    "jimp": "^0.16.1"
+  }
+}
