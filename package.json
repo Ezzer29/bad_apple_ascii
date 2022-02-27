@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node ."
   },
-  "author": "Fabigdot",
+  "author": "J3fflo",
   "license": "MIT",
   "dependencies": {
     "jimp": "^0.16.1"
