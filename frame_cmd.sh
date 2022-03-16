@@ -1,0 +1,1 @@
+ffmpeg -i l.mp4 ./frames_l/$filename%d.png
